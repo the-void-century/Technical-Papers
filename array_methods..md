@@ -5,7 +5,7 @@ The aim of this paper is to help the reader get familiar with the standard funct
 
 - ## Functions
 
-1. `.append()` : This function adds an element at the end of the list , since Python allows the user to add multiple data types to the same list, You can append element of any data type without any errors. **Syntax:**
+1. `.append()` : This function adds an element at the end of the list, since Python allows the user to add multiple data types to the same list, you can append an element of any data type without any errors. **Syntax:**
 
 			list=[1,3]
 			new_element=3
@@ -13,7 +13,7 @@ The aim of this paper is to help the reader get familiar with the standard funct
 			print(list)
 	- The output for the snippet above will be `[1,3,3]`
 
-2. `.clear()` : This function will remove all elements from the list , Be careful while using it. **Syntax:**
+2. `.clear()` : This function will remove all elements from the list, be careful while using it. **Syntax:**
 	
 			list=[1,2,3]
 			list.clear() #This is the generic syntax
@@ -35,7 +35,7 @@ The aim of this paper is to help the reader get familiar with the standard funct
 			print(frequency)
 	- The output for the snippet above will be `3` (The number of time `1` appears in the list)
 
-5. `.extend()`: Essentially concatenates one list with the other. **Syntax:**
+5. `.extend()`: This function essentially concatenates one list with another. **Syntax:**
 
 			list1=[1,2,3]
 			list2=[4,5,6]
@@ -66,7 +66,7 @@ The aim of this paper is to help the reader get familiar with the standard funct
 		list.pop(index_to_be_removed) #This is the generic syntax
 		print(list)
 	- The output for the above snippet is: `[1,2,4]`
-	````
+	```` 
 	 list.pop()
 	````
 	- The code above will further remove the last element , Output: `[1,2]`
